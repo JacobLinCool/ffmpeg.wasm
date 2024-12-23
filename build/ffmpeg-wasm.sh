@@ -13,21 +13,21 @@ CONF_FLAGS=(
   -I$INSTALL_DIR/include 
   -L$INSTALL_DIR/lib 
   -Llibavcodec 
-  -Llibavdevice 
+  # -Llibavdevice 
   -Llibavfilter 
   -Llibavformat 
   -Llibavutil 
-  -Llibpostproc 
+  # -Llibpostproc 
   -Llibswresample 
-  -Llibswscale 
+  # -Llibswscale 
   -lavcodec 
-  -lavdevice 
+  # -lavdevice 
   -lavfilter 
   -lavformat 
   -lavutil 
-  -lpostproc 
+  # -lpostproc 
   -lswresample 
-  -lswscale 
+  # -lswscale 
   -Wno-deprecated-declarations 
   $LDFLAGS 
   -sWASM_BIGINT                            # enable big int support
